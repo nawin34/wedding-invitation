@@ -4,11 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Akhila & Naveen | Wedding Invitation",
   description: "A premium cinematic Indian wedding invitation experience for Akhila and Naveen.",
-  // icons: {
-  //   icon: "/images/images.avif",
-  //   shortcut: "/images/images.avif",
-  //   apple: "/images/images.avif",
-  // },
+  icons: {
+    icon: "/images/fav.png",
+    shortcut: "/images/fav.png",
+    apple: "/images/fav.png",
+  },
   openGraph: {
     title: "Akhila & Naveen | Wedding Invitation",
     description: "Our forever begins here.",
