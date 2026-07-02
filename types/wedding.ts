@@ -17,12 +17,3 @@ export interface WeddingEvent {
   description: string;
 }
 
-export interface WeddingEvent3 {
-  title: string;
-  date: string;
-  time: string;
-  venue: string;
-  palette: string;
-  icon: LucideIcon;
-  description: string;
-}
