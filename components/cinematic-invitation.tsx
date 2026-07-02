@@ -389,7 +389,7 @@ const invitationCards = [
     brideNote: "",
     groomLine: "Akhila",
     groomNote: "",
-    parentLine: "Only daughter of Smt & Sri. Anumatla Manjula-Ravi Garu",
+    parentLine: "Only daughter of Smt & Sri. Anumatla Manjula-Ravi ",
     venue: "SVR Gardens, Satavahana University Road, Malkapur, Karimnagar",
     date: "Thursday, 9th July, 2026",
     time: "11:20 a.m.",
@@ -406,7 +406,7 @@ const invitationCards = [
     brideNote: "",
     groomLine: "Naveen",
     groomNote: "",
-    parentLine: "Only son of Smt & Sri. Mitta Manjula-Rajender Garu",
+    parentLine: "Only son of Smt & Sri. Mitta Manjula-Rajender ",
     venue: "SVR Gardens, Satavahana University Road, Malkapur, Karimnagar",
     date: "Thursday, 9th July, 2026",
     time: "11:20 a.m.",
@@ -480,26 +480,49 @@ function InvitationCardsSection() {
   );
 }
 
+const handleMapClick = () => {
+  alert("You are being redirected to Google Maps for the wedding venue.");
+  console.log("Map link clicked:", wedding.mapUrl);
+}
+
 function VenueSection() {
+  const mapEmbed =
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.6731419613557!2d79.0867667!3d18.453143999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccdf03830a7995%3A0x2c6f474f895c3dc5!2sSVR%20Gardens%20%2C%20chinthakunta!5e0!3m2!1sen!2sin!4v1782989465017!5m2!1sen!2sin";
+
+  const mapLink =
+    "https://www.google.com/maps/search/?api=1&query=SVR+Gardens+chinthakunta+Karimnagar";
+
   return (
     <section className="section venue-section">
-      <SectionHeader eyebrow="Venue" title={wedding.venue} copy="SVR Gardens on Satavahana University Road, Malkapur, Karimnagar welcomes family and friends for the muhurtham and lunch." />
+      <SectionHeader
+        eyebrow="Venue"
+        title={wedding.venue}
+        copy="SVR Gardens on Satavahana University Road, Malkapur, Karimnagar welcomes family and friends for the muhurtham and lunch."
+      />
+
       <div className="venue-layout">
         <div className="venue-visual" data-reveal>
           <div className="route-line" />
           <MapPin size={42} />
         </div>
+
         <div className="venue-panel" data-reveal>
-          <iframe title="Wedding venue map" src={wedding.mapUrl} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-          <div className="venue-actions">
-            <a className="secondary-cta" href={`tel:${wedding.phone.replaceAll(" ", "")}`}>
-              <Phone size={18} /> Call Host
-            </a>
-          </div>
+                <iframe
+          title="Wedding Venue"
+          src={mapEmbed}
+          width="100%"
+          height="400"
+          loading="lazy"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+          style={{ border: 0, borderRadius: '8px' }}
+        />
+
           <ul>
-            <li>Sumuhurtham on Thursday, 9th July, 2026 at 11:20 a.m.</li>
-            <li>Ashwini Nakshatram, Kanya Lagnam.</li>
-            <li>Lunch follows at SVR Gardens.</li>
+            <li>📅 Thursday, 9th July 2026</li>
+            <li>🕚 Sumuhurtham: 11:20 AM</li>
+            <li>🌸 Ashwini Nakshatram, Kanya Lagnam</li>
+            <li>🍽️ Lunch follows at SVR Gardens</li>
           </ul>
         </div>
       </div>
