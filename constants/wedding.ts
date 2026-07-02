@@ -9,7 +9,7 @@ export const wedding = {
   venue: "SVR Gardens, Karimnagar",
   hashtag: "#AkhilaWedsNaveen",
   phone: "+91 6302930252",
-  mapUrl: "https://www.google.com/maps?q=SVR%20Gardens%20Satavahana%20University%20Road%20Malkapur%20Karimnagar&output=embed"
+  mapUrl: "https://www.google.com/maps/search/?api=1&query=SVR+Gardens+Karimnagar"
 };
 
 export const story: StoryChapter[] = [
@@ -39,7 +39,7 @@ export const story: StoryChapter[] = [
     date: "9 July 2026",
     copy:
       "As we begin this beautiful new chapter together, we warmly invite you to celebrate our wedding and bless us as we step into a lifetime of togetherness.",
-    image: "url('/images/11L.JPG')"
+    image: "url('/images/15L.JPG')"
   }
 ];
 
