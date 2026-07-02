@@ -421,7 +421,7 @@ function InvitationCardsSection() {
       <SectionHeader
         eyebrow="Invitation Cards"
         title="Two families, one sacred invitation"
-        copy="Royal digital recreations of the bride-side and groom-side wedding cards, carrying the same ceremony details in an elegant heirloom style."
+        copy=""
       />
       <div className="royal-card-grid">
         {invitationCards.map((card) => (
