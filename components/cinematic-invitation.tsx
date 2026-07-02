@@ -147,7 +147,7 @@ function HeroSection({
         </Suspense>
       </div>
       <motion.div className="hero-content" initial={false} animate={visible ? "show" : "hide"} variants={{ hide: {}, show: {} }}>
-        <motion.p variants={splitReveal(0.15)} className="eyebrow">A Decade of Love, A Lifetime of Forever</motion.p>
+        <motion.p variants={splitReveal(0.15)} className="eyebrow">Our Beginning. Our Journey. Our Forever.</motion.p>
         <motion.h1 variants={splitReveal(0.28)}>
           <span>{wedding.bride}</span>
           <Heart aria-hidden="true" />
