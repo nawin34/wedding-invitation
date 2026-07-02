@@ -14,31 +14,31 @@ export const wedding = {
 
 export const story: StoryChapter[] = [
   {
-    title: "When Our Eyes Found Each Other",
+    title: "Where Our Journey Began",
     date: "The Beginning",
     copy:
-      "Every beautiful story starts with a single moment. Ours began with two hearts finding comfort in each other's presence—a simple meeting that quietly grew into a love meant to last forever.",
+      "Every beautiful journey begins with a single step. Ours started with shared smiles, meaningful moments, and a bond that grew stronger with every passing season.",
     image: "url('/images/2.jpg')"
   },
   {
-    title: "Walking Through Life, Hand in Hand",
-    date: "A Decade of Love",
+    title: "Growing Together",
+    date: "Cherished Memories",
     copy:
-      "From shared dreams and endless conversations to every sunrise and sunset together, we discovered that home isn't a place—it's being with the person who chooses you every single day.",
+      "Through countless moments of joy, laughter, and unwavering support, we discovered that life's greatest happiness is found in walking every path together.",
     image: "url('/images/6L.JPG')"
   },
   {
-    title: "One Promise, Two Hearts",
-    date: "Our Forever Awaits",
+    title: "A Promise for Tomorrow",
+    date: "A New Chapter",
     copy:
-      "What began as a love story became a lifelong promise. Side by side, we stepped closer to forever, carrying with us every memory that brought us to this beautiful chapter.",
+      "With grateful hearts and the blessings of our families, we look ahead to a future filled with hope, happiness, and beautiful memories yet to be written.",
     image: "url('/images/8L.JPG')"
   },
   {
-    title: "Together, Forever Begins",
+    title: "Forever Begins Here",
     date: "9 July 2026",
     copy:
-      "With the blessings of our families and the love we've nurtured for ten unforgettable years, we joyfully begin the most beautiful journey of our lives—as husband and wife, forever together.",
+      "As we begin this beautiful new chapter together, we warmly invite you to celebrate our wedding and bless us as we step into a lifetime of togetherness.",
     image: "url('/images/11L.JPG')"
   }
 ];
