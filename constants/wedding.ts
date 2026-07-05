@@ -47,7 +47,7 @@ export const events: WeddingEvent[] = [
   {
     title: "Haldi Ceremony",
     date: "8 July 2026",
-    time: "Starts at 4:00 PM",
+    time: "Starts at 2:00 PM",
     venue: "At Bride's / Groom's Residence",
     palette: "#F4C542",
     icon: Flower2,
